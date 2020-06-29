@@ -21,8 +21,9 @@ from sklearn.svm import SVR
 from sklearn.linear_model import LinearRegression
 import quandl
 from sklearn.model_selection import train_test_split
+import matplotlib.pyplot as plt
 
-
+quandl.ApiConfig.api_key = "azmTPfQgta_kCCnharyU"
 # In[2]:
 
 
@@ -38,7 +39,7 @@ print(df.head())
 df=df[['Adj. Close']]
 print(df.head())
 
-
+plt.plot(df)
 # In[10]:
 
 
@@ -131,8 +132,6 @@ print("\n")
 svm_prediction = svr_rbf.predict(x_forecast)
 print(svm_prediction)
 
-
-# In[ ]:
 
 
 
