@@ -21,8 +21,8 @@ Dygraphs for plotting
 
 Steps to run the code:
 Clone the github and goto the folder
-$git clone https://github.com/SJSU272LabF17/Project-Team-6
-$cd ./Project-Team-6/
+$git clone https://github.com/AbhishekSRM/Stock-exchange_pr
+$cd ./stock_svr/
 create a virtual environment with python3
 $virtualenv -p /usr/local/bin/python3 Dependencies
 Activate the virtual environment
